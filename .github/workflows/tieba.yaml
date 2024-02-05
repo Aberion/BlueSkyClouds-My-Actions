@@ -19,7 +19,7 @@ jobs:
                   node-version: 18
             - name: npm insta
               run: |
-                  npm ci
+                  npm@4 install
             - name: "运行【百度签到】"
               run: |
                   node function/tieba/tieba.js
