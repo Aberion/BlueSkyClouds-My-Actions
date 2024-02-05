@@ -17,9 +17,9 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: 18
-            - name: npm install
+            - name: npm insta
               run: |
-                  npm install
+                  npm ci
             - name: "运行【百度签到】"
               run: |
                   node function/tieba/tieba.js
